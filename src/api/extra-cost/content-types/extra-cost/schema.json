@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "extra_costs",
+  "info": {
+    "singularName": "extra-cost",
+    "pluralName": "extra-costs",
+    "displayName": "ExtraCost"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "internet": {
+      "type": "decimal",
+      "required": true
+    },
+    "tv": {
+      "type": "decimal",
+      "required": true
+    },
+    "decoder": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

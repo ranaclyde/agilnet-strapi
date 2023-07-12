@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "premium_prices",
+  "info": {
+    "singularName": "premium-price",
+    "pluralName": "premium-prices",
+    "displayName": "premiumPrice"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "football": {
+      "type": "decimal",
+      "required": true
+    },
+    "hbo": {
+      "type": "decimal",
+      "required": true
+    },
+    "fox": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}
