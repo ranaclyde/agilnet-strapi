@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "internet_packs",
+  "info": {
+    "singularName": "internet-pack",
+    "pluralName": "internet-packs",
+    "displayName": "InternetPack"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "packId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "bandwidth": {
+      "type": "integer",
+      "required": true
+    },
+    "internet": {
+      "type": "decimal"
+    },
+    "tv": {
+      "type": "decimal",
+      "required": true
+    },
+    "discount": {
+      "type": "decimal"
+    }
+  }
+}
